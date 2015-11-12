@@ -1,0 +1,252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1AF0E91BF420D700F54BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1AF0E81BF420D700F54BC0 /* main.m */; };
+		EF1AF0F21BF421F100F54BC0 /* BasicGreeter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1AF0F11BF421F100F54BC0 /* BasicGreeter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF1AF0E31BF420D700F54BC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF1AF0E51BF420D700F54BC0 /* DynaLoader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DynaLoader; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1AF0E81BF420D700F54BC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1AF0EF1BF4217A00F54BC0 /* Greeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Greeter.h; sourceTree = "<group>"; };
+		EF1AF0F01BF421F100F54BC0 /* BasicGreeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGreeter.h; sourceTree = "<group>"; };
+		EF1AF0F11BF421F100F54BC0 /* BasicGreeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicGreeter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1AF0E21BF420D700F54BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1AF0DC1BF420D700F54BC0 = {
+			isa = PBXGroup;
+			children = (
+				EF1AF0E71BF420D700F54BC0 /* DynaLoader */,
+				EF1AF0E61BF420D700F54BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1AF0E61BF420D700F54BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AF0E51BF420D700F54BC0 /* DynaLoader */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1AF0E71BF420D700F54BC0 /* DynaLoader */ = {
+			isa = PBXGroup;
+			children = (
+				EF1AF0E81BF420D700F54BC0 /* main.m */,
+				EF1AF0EF1BF4217A00F54BC0 /* Greeter.h */,
+				EF1AF0F01BF421F100F54BC0 /* BasicGreeter.h */,
+				EF1AF0F11BF421F100F54BC0 /* BasicGreeter.m */,
+			);
+			path = DynaLoader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1AF0E41BF420D700F54BC0 /* DynaLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1AF0EC1BF420D700F54BC0 /* Build configuration list for PBXNativeTarget "DynaLoader" */;
+			buildPhases = (
+				EF1AF0E11BF420D700F54BC0 /* Sources */,
+				EF1AF0E21BF420D700F54BC0 /* Frameworks */,
+				EF1AF0E31BF420D700F54BC0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynaLoader;
+			productName = DynaLoader;
+			productReference = EF1AF0E51BF420D700F54BC0 /* DynaLoader */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1AF0DD1BF420D700F54BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "金融研發一部-蕭裕翰";
+				TargetAttributes = {
+					EF1AF0E41BF420D700F54BC0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = EF1AF0E01BF420D700F54BC0 /* Build configuration list for PBXProject "DynaLoader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF1AF0DC1BF420D700F54BC0;
+			productRefGroup = EF1AF0E61BF420D700F54BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1AF0E41BF420D700F54BC0 /* DynaLoader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1AF0E11BF420D700F54BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1AF0E91BF420D700F54BC0 /* main.m in Sources */,
+				EF1AF0F21BF421F100F54BC0 /* BasicGreeter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF1AF0EA1BF420D700F54BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EF1AF0EB1BF420D700F54BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF1AF0ED1BF420D700F54BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF1AF0EE1BF420D700F54BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1AF0E01BF420D700F54BC0 /* Build configuration list for PBXProject "DynaLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AF0EA1BF420D700F54BC0 /* Debug */,
+				EF1AF0EB1BF420D700F54BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1AF0EC1BF420D700F54BC0 /* Build configuration list for PBXNativeTarget "DynaLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1AF0ED1BF420D700F54BC0 /* Debug */,
+				EF1AF0EE1BF420D700F54BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1AF0DD1BF420D700F54BC0 /* Project object */;
+}

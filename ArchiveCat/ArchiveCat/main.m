@@ -17,7 +17,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"\n%@", [animal description]);
         NSString *file = @"data.archive";
         if ([archiver encodeArchive:animal toFile:file]) {
-            [[archiver path] stringByAppendingString:file];
+            NSLog(@"You encode an archive to file %@", [[archiver path] stringByAppendingString:file]);
         }
         
         id data = [archiver decodeArchiveFromFile:file];
